@@ -1,0 +1,36 @@
+import './index.css'
+
+const registrationPage = () => (
+
+    <div className="user_container">
+    <h1 className="heading">Registration page</h1>
+
+<form className="form">
+                <div>
+                    <label>Name</label><br/>
+                    <input type="text" name="name" required />
+                </div>
+                <div>
+                    <label>Email</label><br/>
+                    <input type="text" name="email" required />
+                </div>
+                <div>
+                    <label>Phone Number</label><br/>
+                    <input type="text" name="email" required />
+                </div>
+                <div>
+                    <label>Photo</label><br/>
+                    <input type="file" name="email" required />
+                </div>
+                <div>
+                    
+                    <input  className="button" type="button" value="Register" required />
+                </div>
+
+</form>
+
+</div>
+    
+)
+
+export default registrationPage
